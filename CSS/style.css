@@ -20,6 +20,10 @@ body{
     align-items: center;
     height: 150px;
     padding: 5px 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 .header .logo{
