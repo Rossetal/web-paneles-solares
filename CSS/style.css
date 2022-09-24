@@ -31,7 +31,7 @@ body{
 }
 
 .header .logo img{
-    height: 150px;
+    height: 140px;
     width: auto;
     transition: all 0.3s;
 }
