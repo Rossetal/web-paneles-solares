@@ -65,12 +65,10 @@ body{
     color: #f0e662;
 }
 
-.asidebar div img{
-    width: 300px;
-}
+
 .container{
-    width: 90%;
-    max-width:1000px ;
+    width: 100%;
+    max-width:  1100px; 
     margin: 1.6em auto;
     display: grid;
     gap: 1.6em;
@@ -80,20 +78,21 @@ body{
 .container>.asidebar,
 .container>.footer,
 .container>div{
-    background: #fff;
+    
     padding: 20px;
-    border: 1px solid #000000;
 }
 .container .footer{
     grid-column: 1/6;
-    background:#f0ffff  ;
+    background:#f0ffff;
 }
-.container > .content{
+.container > .content {
     grid-column: span 3;
+    padding-top: 50px;
+    margin-top: 20px;
 }
 .content > .article{
     background: #64a400;
-    padding: 20px;
+    padding: 20px;s
     margin: 5px;
     color: #dfe6e9;
 }
@@ -102,17 +101,17 @@ body{
     padding: 10px;
 }
 .container > .asidebar{
+    display: grid;
     grid-column: span 2;
     background:#62daf0 ;
     color: #fff;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .container .asidebar img{
     width: 100%;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .container > .related-post{
     background:#64a400 ;
@@ -125,7 +124,17 @@ body{
 .container > .related-post:hover{
     cursor: pointer;
     color: #000000;
-    background: #fff;
+    background: #fff;}
+
+.container > .asidebar{
+    margin-top: 8.2em;
 }
+
+.container > .content .article {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+
 
 
