@@ -150,5 +150,10 @@ body{
 }
 
 
+@media screen and (max-width: 40em) {
+     .container .asidebar  {
+        grid-template-columns: (1, 1fr);
+    }
+}
 
 
