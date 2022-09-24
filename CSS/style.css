@@ -64,7 +64,21 @@ body{
 .header .nav-links li a:hover{
     color: #f0e662;
 }
+ .btn button{
+    background-color: #64a400;
+    width: 150px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    border-radius: 30px;
+ }
+ .btn button:hover{
+   background-color:azure ;
+   color: #000000; 
+ }
 
+ 
 
 .container{
     width: 100%;
