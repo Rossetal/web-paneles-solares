@@ -92,11 +92,11 @@ body{
 }
 .content > .article{
     background: #64a400;
-    padding: 20px;s
-    margin: 5px;
+    padding: 20px;
+    margin: 5px ;
     color: #dfe6e9;
 }
-.content .article h1,
+.content .article h1
 .content .article p{
     padding: 10px;
 }
@@ -126,7 +126,7 @@ body{
     color: #000000;
     background: #fff;}
 
-.container > .asidebar{
+.container > .asidebar {
     margin-top: 8.2em;
 }
 
